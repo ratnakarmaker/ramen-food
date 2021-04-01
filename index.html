@@ -25,13 +25,13 @@
     <div class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top">
             <div class="container">
-                <a class="navbar-brand nav-img" href="#">RAMEN</a>
+                <a class="navbar-brand nav-img text_green" href="#">RAMEN</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav fw-bold">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
@@ -56,16 +56,18 @@
         </nav>
 
         <div id="home" class="container mt-5 pt-5">
-            <div class="row pt-5 pb-5">
+            <div class="row d-flex align-items-center py-5">
                 <div class="col-md-5">
-                    <div class="nav-text ms-5 ps-5">
-                        <h1 class="text_green">TASTY RAMEN</h1>
-                        <br>
-                        <h2>Try The Best Ramen In Week</h2>
+                    <div class="nav-text d-flex justify-content-end ps-5">
+                        <div>
+                            <h1 class="text_green">Tasty Ramen</h1>
+                            <h2 class="subtitle mt-4">Try The Best Ramen <br> in week.</h2>
+                            <div class="banner-btnn mt-4">
+                                <button type="button" class="btn btn-success">View Menu </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="banner-btnn mt-5 ms-5 ps-5">
-                        <button type="button" class="btn btn-success ms-3">View Menu </button>
-                    </div>
+
                 </div>
                 <div class="col-md-7 text-center">
                     <img class="ramen_pic" src="images/photo1.png" alt="">
@@ -76,17 +78,18 @@
 
     <!-------- about section -------------->
     <div id="about" class="container">
-        <div class="row pt-5 pb-5">
+        <div class="row py-5 d-flex align-items-center">
             <div class="col-md-7 text-center">
-                <img class="ramen_pic" src="images/photo2.png" alt="">
+                <img class="ramen_pic" src="images/food-1948266_640.jpg" alt="">
             </div>
             <div class="col-md-5">
                 <span class="text_green nav-text">About Us</span>
-                <h2>We Cook The Best Ramen</h2>
-                <p class="parr-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum aperiam in
+                <h2 class="subtitle mt-4">We cook the best <br> Ramen food</h2>
+                <p class="parr-gray mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum
+                    aperiam in
                     quibusdam minima odit modi quod fuga, labore aut!</p>
-                <div class="banner-btnn mt-5">
-                    <button type="button" class="btn btn-success ms-3">Explore history</button>
+                <div class="banner-btnn mt-4">
+                    <button type="button" class="btn btn-success">Explore history</button>
                 </div>
             </div>
         </div>
@@ -102,24 +105,33 @@
         </div>
         <div class="row pt-5">
             <div class="col-md-4">
-                <img src="images/dish.svg" class="offer-img text_green" alt="">
-                <div class="offer_body text-center">
-                    <h3>Excellent Food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                <div class="px-5">
+                    <img src="images/dish.svg" class="offer-img" alt="">
+                    <div class="offer_body text-center">
+                        <h5>Excellent Food</h5>
+                        <p class="px-5 px-sm-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                            obcaecati!</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="images/pizza.svg" class="offer-img text_green" alt="">
-                <div class="offer_body text-center">
-                    <h3>Fast Food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                <div class="px-5">
+                    <img src="images/pizza.svg" class="offer-img" alt="">
+                    <div class="offer_body text-center">
+                        <h5>Fast Food</h5>
+                        <p class="px-5 px-sm-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                            obcaecati!</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="images/truck.svg" class="offer-img text_green" alt="">
-                <div class="offer_body text-center">
-                    <h3>Delivery</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                <div class="px-5">
+                    <img src="images/truck.svg" class="offer-img" alt="">
+                    <div class="offer_body text-center">
+                        <h5>Delivery</h5>
+                        <p class="px-5 px-sm-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                            obcaecati!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,12 +142,12 @@
         <div class="row">
             <div class="body-text text-center">
                 <p class="text_green">Special</p>
-                <h1> Our Amazing Services</h1>
+                <h1 class="fw-bold">Menu of the week</h1>
             </div>
         </div>
 
         <div class="row d-flex justify-content-center pt-5">
-            <div class="card">
+            <div class="card my-4 my-lg-0 col-12 col-sm-6 col-md-4">
                 <img class="card-img-top" src="images/photo1.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Spicy Ramen</h5>
@@ -144,7 +156,7 @@
                     <a href="#" class="btn btn-success menu_btn"><i class="fas fa-cart-plus"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card my-4 my-lg-0 col-12 col-sm-6 col-md-4">
                 <img class="card-img-top" src="images/photo3.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Spicy Ramen</h5>
@@ -153,7 +165,7 @@
                     <a href="#" class="btn btn-success menu_btn"><i class="fas fa-cart-plus"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card my-4 my-lg-0 col-12 col-sm-6 col-md-4">
                 <img class="card-img-top" src="images/photo2.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Spicy Ramen</h5>
@@ -168,19 +180,18 @@
 
     <!-------- APP section -------------->
     <div id="app" class="container pt-5">
-        <div class="row pt-5 pb-5">
+        <div class="row py-5 d-flex align-items-center">
             <div class="col-md-7 text-center">
                 <img class="ramen_pic" src="images/movil-app.png" alt="">
             </div>
             <div class="col-md-5">
                 <span class="text_green nav-text">App</span>
-                <br>
-                <br>
-                <h2>App Is Available</h2>
-                <p class="parr-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum aperiam in
+                <h2 class="subtitle mt-4">App is Available</h2>
+                <p class="parr-gray mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum
+                    aperiam in
                     quibusdam minima odit modi quod fuga, labore aut!</p>
 
-                <div class="app_store d-flex justify-content-start">
+                <div class="app_store d-flex justify-content-start mt-4">
                     <img src="images/app1.png" alt="">
                     <img src="images/app2.png" alt="">
                 </div>
@@ -189,28 +200,31 @@
     </div>
 
     <!-------- contact section -------------->
-    <div id="contact" class="container">
-        <div class="row">
+    <div id="contact" class="container px-5">
+        <div class="row d-flex align-items-center">
             <div class="col-md-8">
                 <span class="text_green nav-text">Let's talk</span>
-                <h2>Contact us</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, error aspernatur? Non facilis
+                <h2 class="subtitle mt-4">Contact us</h2>
+                <p class="parr-gray mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, error
+                    aspernatur? Non facilis
                     voluptate, iusto fuga veniam omnis quisquam sequi!</p>
             </div>
             <div class="col-md-4">
-                <div class="banner-btnn mt-5 ms-5 ps-5">
-                    <button type="button" class="btn btn-success ms-3">Contact us now</button>
+                <div class="banner-btnn mt-5 text-end">
+                    <button type="button" class="btn btn-success">Contact now</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-------- footer section -------------->
-    <div class="container mt-5 pt-5">
+    <div class="container mt-5 pt-5 px-5">
         <div class="row">
-            <div class="col-md-3">
-                <a href="#" class="footer_logo text_green"><h3>Tasty Food</h3></a>
-                <p><small>Restaurant</small></p>
+            <div class="col-6 col-md-3">
+                <a href="#" class="footer_logo text_green">
+                    <h3>Tasty Food</h3>
+                </a>
+                <p class="parr-gray"><small>Restaurant</small></p>
                 <a href="#" class="footer_social">
                     <!-- Social buttons -->
                     <ul class="list-unstyled list-inline">
@@ -232,7 +246,7 @@
                     </ul>
                 </a>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-3">
                 <h3>Services</h3>
                 <ul class="list-unstyle footer_social">
                     <li><a href="#" class="footer_link text-muted">Delivery</a></li>
@@ -241,7 +255,7 @@
                     <li><a href="#" class="footer_link text-muted">Reserve your spot</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-3">
                 <h3>Information</h3>
                 <ul class="list-unstyle footer_social">
                     <li><a href="#" class="footer_link text-muted">Delivery</a></li>
@@ -250,7 +264,7 @@
                     <li><a href="#" class="footer_link text-muted">Reserve your spot</a></li>
                 </ul>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-3">
                 <h3>Address</h3>
                 <ul class="list-unstyle footer_social">
                     <li><a href="#" class="footer_link text-muted">Delivery</a></li>
@@ -263,13 +277,26 @@
 
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">&copy; 2021 Copyright:
-            <a href="https://ratnaportfolio.netlify.app/">SEleven It Limited</a>
+        <div class="footer-copyright text-center my-4">
+            <p>&copy; 2021 Copyright: <a href="https://ratnaportfolio.netlify.app/" class="website">SEleven It
+                    Limited</a></p>
         </div>
     </div>
 
 
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+    <!--scroll to top end-->
 
+
+    <script type="text/javascript">
+        $('.testimonial-pics img').click(function () {
+            $(".testimonial-pics img").removeClass("active");
+            $(this).addClass("active");
+            $(".testimonial").removeClass("active");
+            $("#" + $(this).attr("alt")).addClass("active");
+        });
+
+    </script>
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

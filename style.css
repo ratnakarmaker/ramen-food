@@ -2,18 +2,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body{
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-img img{
     width: 50px;
 }
 .text_green{
-    color: #157347;
+    color: #157347 !important;
     font-weight: bold;
 }
-.nav-text {
-    width: 70%;
+.nav-text h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+.nav-color{
+    background: #fff;;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+}
+.nav-item a.active,
+.nav-item a:hover{
+    color: #157347 !important;
+    transition: 0.3s;
+}
+.subtitle{
+    line-height: 45px;
     font-weight: bold;
 }
 .banner-btnn button{
@@ -21,14 +34,15 @@ body{
     border-radius: 25px;
 }
 .ramen_pic{
-    width: 42%;
+    width: 60%;
+    border-radius: 15px
 }
 /* -------------------about part---------------- */
 .text-sky{
     color: #24cccc;
 }
 .parr-gray{
-    color: gray;
+    color: #707070;
 }
 .text-white{
     color: white;
@@ -40,6 +54,9 @@ body{
     margin: 0 auto;
     width: 64px;
     height: 87px;
+}
+.offer_body p, .card-body p{
+    color: #707070;
 }
 
 /*------------------ menu--------------------------- */
@@ -56,7 +73,7 @@ body{
     right: 0;
     display: flex;
     padding: .625rem .813rem;
-    border-radius: .5rem 0 .5rem 0;
+    border-radius: 5px 0px 5px 0px;
 }
 
 /*---------- app--------- */
@@ -69,6 +86,7 @@ body{
 .footer_social, .footer_logo{
     text-decoration: none;
     list-style: none;
+    padding-left: 0;
 }
 .footer_link{
     text-decoration: none;
@@ -80,10 +98,28 @@ body{
 .footer_icon svg{
     color: #157347;
 }
-.nav-color{
-    background: #519475;;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
-}
 .footer-copyright a{
     text-decoration: none;
+}
+.website{
+    color: #157347;
+}
+
+/* -----------top to bottom--------------- */
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #157347;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.gotopbtn:hover{
+    color: white;
 }
