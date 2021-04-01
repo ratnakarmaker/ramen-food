@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+        integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Ramen</title>
+</head>
+
+<body>
+    <!-------------- main menu ------------------->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light nav-color fixed-top">
+            <div class="container">
+                <a class="navbar-brand nav-img" href="#">RAMEN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#app">App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="home" class="container mt-5 pt-5">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-5">
+                    <div class="nav-text ms-5 ps-5">
+                        <h1 class="text_green">TASTY RAMEN</h1>
+                        <br>
+                        <h2>Try The Best Ramen In Week</h2>
+                    </div>
+                    <div class="banner-btnn mt-5 ms-5 ps-5">
+                        <button type="button" class="btn btn-success ms-3">View Menu </button>
+                    </div>
+                </div>
+                <div class="col-md-7 text-center">
+                    <img class="ramen_pic" src="images/photo1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- about section -------------->
+    <div id="about" class="container">
+        <div class="row pt-5 pb-5">
+            <div class="col-md-7 text-center">
+                <img class="ramen_pic" src="images/photo2.png" alt="">
+            </div>
+            <div class="col-md-5">
+                <span class="text_green nav-text">About Us</span>
+                <h2>We Cook The Best Ramen</h2>
+                <p class="parr-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum aperiam in
+                    quibusdam minima odit modi quod fuga, labore aut!</p>
+                <div class="banner-btnn mt-5">
+                    <button type="button" class="btn btn-success ms-3">Explore history</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- offer section -------------->
+    <div id="service" class="container pt-5 mt-5">
+        <div class="row">
+            <div class="body-text text-center">
+                <p class="text_green">Offering</p>
+                <h1> Our Amazing Services</h1>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <img src="images/dish.svg" class="offer-img text_green" alt="">
+                <div class="offer_body text-center">
+                    <h3>Excellent Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/pizza.svg" class="offer-img text_green" alt="">
+                <div class="offer_body text-center">
+                    <h3>Fast Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/truck.svg" class="offer-img text_green" alt="">
+                <div class="offer_body text-center">
+                    <h3>Delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, obcaecati!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- Menu section -------------->
+    <div id="menu" class="container pt-5 mt-5">
+        <div class="row">
+            <div class="body-text text-center">
+                <p class="text_green">Special</p>
+                <h1> Our Amazing Services</h1>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center pt-5">
+            <div class="card">
+                <img class="card-img-top" src="images/photo1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Ramen</h5>
+                    <p class="card-text"><small>Delicious Dish</small></p>
+                    <strong>$22.00</strong>
+                    <a href="#" class="btn btn-success menu_btn"><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/photo3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Ramen</h5>
+                    <p class="card-text"><small>Delicious Dish</small></p>
+                    <strong>$22.00</strong>
+                    <a href="#" class="btn btn-success menu_btn"><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/photo2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Ramen</h5>
+                    <p class="card-text"><small>Delicious Dish</small></p>
+                    <strong>$22.00</strong>
+                    <a href="#" class="btn btn-success menu_btn"><i class="fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------- APP section -------------->
+    <div id="app" class="container pt-5">
+        <div class="row pt-5 pb-5">
+            <div class="col-md-7 text-center">
+                <img class="ramen_pic" src="images/movil-app.png" alt="">
+            </div>
+            <div class="col-md-5">
+                <span class="text_green nav-text">App</span>
+                <br>
+                <br>
+                <h2>App Is Available</h2>
+                <p class="parr-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum aperiam in
+                    quibusdam minima odit modi quod fuga, labore aut!</p>
+
+                <div class="app_store d-flex justify-content-start">
+                    <img src="images/app1.png" alt="">
+                    <img src="images/app2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- contact section -------------->
+    <div id="contact" class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <span class="text_green nav-text">Let's talk</span>
+                <h2>Contact us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, error aspernatur? Non facilis
+                    voluptate, iusto fuga veniam omnis quisquam sequi!</p>
+            </div>
+            <div class="col-md-4">
+                <div class="banner-btnn mt-5 ms-5 ps-5">
+                    <button type="button" class="btn btn-success ms-3">Contact us now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------- footer section -------------->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#" class="footer_logo text_green"><h3>Tasty Food</h3></a>
+                <p><small>Restaurant</small></p>
+                <a href="#" class="footer_social">
+                    <!-- Social buttons -->
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-fb mx-1 footer_icon">
+                                <i class="fab fa-facebook-f"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-tw mx-1 footer_icon">
+                                <i class="fab fa-twitter"> </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-gplus mx-1 footer_icon">
+                                <i class="fab fa-google-plus-g"> </i>
+                            </a>
+                        </li>
+                    </ul>
+                </a>
+            </div>
+            <div class="col-md-3">
+                <h3>Services</h3>
+                <ul class="list-unstyle footer_social">
+                    <li><a href="#" class="footer_link text-muted">Delivery</a></li>
+                    <li><a href="#" class="footer_link text-muted">Pricing</a></li>
+                    <li><a href="#" class="footer_link text-muted">Fast Food</a></li>
+                    <li><a href="#" class="footer_link text-muted">Reserve your spot</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Information</h3>
+                <ul class="list-unstyle footer_social">
+                    <li><a href="#" class="footer_link text-muted">Delivery</a></li>
+                    <li><a href="#" class="footer_link text-muted">Pricing</a></li>
+                    <li><a href="#" class="footer_link text-muted">Fast Food</a></li>
+                    <li><a href="#" class="footer_link text-muted">Reserve your spot</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Address</h3>
+                <ul class="list-unstyle footer_social">
+                    <li><a href="#" class="footer_link text-muted">Delivery</a></li>
+                    <li><a href="#" class="footer_link text-muted">Pricing</a></li>
+                    <li><a href="#" class="footer_link text-muted">Fast Food</a></li>
+                    <li><a href="#" class="footer_link text-muted">Reserve your spot</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">&copy; 2021 Copyright:
+            <a href="https://ratnaportfolio.netlify.app/">SEleven It Limited</a>
+        </div>
+    </div>
+
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

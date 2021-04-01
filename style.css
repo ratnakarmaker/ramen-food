@@ -1,0 +1,89 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.nav-img img{
+    width: 50px;
+}
+.text_green{
+    color: #157347;
+    font-weight: bold;
+}
+.nav-text {
+    width: 70%;
+    font-weight: bold;
+}
+.banner-btnn button{
+    padding: 9px 20px;
+    border-radius: 25px;
+}
+.ramen_pic{
+    width: 42%;
+}
+/* -------------------about part---------------- */
+.text-sky{
+    color: #24cccc;
+}
+.parr-gray{
+    color: gray;
+}
+.text-white{
+    color: white;
+}
+
+/*------------------ offer--------------------------- */
+.offer-img{
+    display: block;
+    margin: 0 auto;
+    width: 64px;
+    height: 87px;
+}
+
+/*------------------ menu--------------------------- */
+.card{
+    width: 13rem;
+    border: 0px; 
+    box-shadow: 1px 1px 5px 0px grey;
+    margin-left: 5%;
+
+}
+.menu_btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: .625rem .813rem;
+    border-radius: .5rem 0 .5rem 0;
+}
+
+/*---------- app--------- */
+.app_store img{
+    width: 120px;
+    margin-left: 6px;
+}
+
+/* -----------footer--------- */
+.footer_social, .footer_logo{
+    text-decoration: none;
+    list-style: none;
+}
+.footer_link{
+    text-decoration: none;
+    list-style: none;
+}
+.footer_copy{
+    text-align: center;
+}
+.footer_icon svg{
+    color: #157347;
+}
+.nav-color{
+    background: #519475;;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+}
+.footer-copyright a{
+    text-decoration: none;
+}
